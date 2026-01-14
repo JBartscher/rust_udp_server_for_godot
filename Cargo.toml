@@ -1,0 +1,11 @@
+[package]
+name = "godot_udp_server_from_scratch"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+enet = { version = "0.3.0", features = [] }
+tokio = { version = "1.47.1", features = ["net", "rt", "rt-multi-thread", "macros"] }
+serde = { version = "1.0.226", features = ["serde_derive"] }
+serde_json = { version = "1.0.145", features = ["default"] }
+bincode = { version = "2.0.1", features = ["serde", "derive"] }
