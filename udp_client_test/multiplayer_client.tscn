@@ -1,0 +1,6 @@
+[gd_scene load_steps=2 format=3 uid="uid://bet1nln6nmh0d"]
+
+[ext_resource type="Script" uid="uid://mddv6cxa8114" path="res://multiplayer_client.gd" id="1_p3mig"]
+
+[node name="MultiplayerClient" type="Node"]
+script = ExtResource("1_p3mig")
